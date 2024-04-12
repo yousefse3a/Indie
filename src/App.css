@@ -1,0 +1,43 @@
+:root {
+  font-family: "Source Sans 3";
+  color-scheme: light dark;
+  color: white;
+  background-color: #060606;
+}
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+a:hover {
+  color: white !important;
+}
+
+.css-1dd3zgi-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #fff !important;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+  color: #fff !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+  font-family: "Almarai";
+  background-color: #060606;
+  overflow-x: hidden;
+  /* color: rgba(0, 0, 0, 0.5); */
+}
+@keyframes mymove {
+  from {
+    /* top: translate(0%, -100%); */
+    bottom: -100%;
+  }
+  to {
+    bottom: 0;
+    /* transform: translate(0%, 0%); */
+  }
+}
